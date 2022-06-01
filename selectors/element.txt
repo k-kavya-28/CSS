@@ -1,0 +1,30 @@
+p,
+a{
+    color:green;
+}
+
+li{
+    list-style-type: square;
+}
+
+span.special,
+li.special{
+    color: orange;
+    font-weight: bold;
+}
+
+decendent combinator
+li em{
+    color: rebeccapurple;
+}
+
+h1+p{
+    font-size: 200%;
+}
+
+pseuso class selector
+a:hover{
+    color: saddlebrown;
+    text-decoration: none; none removes underline when we hover over the link
+}
+
