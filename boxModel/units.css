@@ -4,3 +4,12 @@
 .body{
     font-size: 50px;
 }
+.em{
+    font-size: 1em;
+}
+.rem{
+    font-size: 1rem;
+}
+html{
+    font-size: 25rem;
+}
