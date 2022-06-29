@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries: width</title>
+    <style>
+        html {
+            font-size: 1em;
+        }
+
+        /*@media screen and (max-width: 600px) {
+            body {
+                color: red;
+            }
+        }*/
+
+        /*@media (orientation:landscape) {
+            body {
+                color: rebeccapurple;
+            }
+        }*/
+
+        /*@media screen and (max-width: 600px) and (orientation: landscape) {
+            body {
+                color: blue;
+            }
+        }*/
+
+        /*@media screen and (max-width: 600px),
+        screen and (orientation: landscape) {
+            body {
+                color: blue;
+            }
+        }*/
+
+        @media not all and (orientation: landscape) {
+            body {
+                color: blue;
+            } 
+        }
+    </style>
+</head>
+<body>
+    
+    <p>KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken.</p>
+    <p>Italy may be where pizza was invented, but it wasn't until Neapolitans crossed the Atlantic that this cheesy cuisine started to really take off.</p>
+
+</body>
+</html>
